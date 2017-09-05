@@ -1,0 +1,11 @@
+<h2>{{title}}</h2>
+<table>
+  <tr>
+    <th>Movie Title</th>
+    <th>Movie Rate</th>
+  </tr>
+  <tr *ngFor="let movie of result">
+    <td>{{movie.movie_title}}</td>
+    <td>{{movie.movie_rate}}</td>
+  </tr>
+</table>
